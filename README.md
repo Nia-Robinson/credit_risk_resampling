@@ -29,9 +29,6 @@ The first stage of the machine learning process was to split the data into train
 The methods for fitting the models were first using the LogisticRegression classifier on the original data. Next, the LogisticRegression classifier was used on resampled data by utilizing the RandomOverSampler module from the imbalanced-learn library. 
 
 ## Results
-
-Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
-
 * Machine Learning Model 1 (Logistic Regression with Original Data):
     * Balanced Accuracy Score: 95.2%
     * Precision Score: 
