@@ -41,7 +41,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
         * 0 (healthy loan) - 99%
         * 1 (high-risk loan) - 91%    
 
-* Machine Learning Model 2 (Logisitic Regression with Resampled Data):
+* Machine Learning Model 2 (Logistic Regression with Resampled Data):
     * Balanced Accuracy Score: 99.4%
     * Precision Score: 
         * 0 (healthy loan) - 100%
