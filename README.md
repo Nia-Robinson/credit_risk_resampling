@@ -22,7 +22,7 @@ The data provided the following financial information to help predict the loan's
 * Borrower's Total Debt
 * Loan Status (Healthy vs. High-Risk)
 
-The data was separated into labels and features to allow the machine learning models to predict future loan statuses. The labels variable (y) was set to loan_status column. The features variable (X) was set to all the remaining columns excluding loan_status. The balance of the labels variable (y) using the value_counts function counted 75,036 (0's) and 2,500 (1's). 0 represents a healthy loan while 1 represents a high-risk loan.
+The data was separated into labels and features to allow the machine learning models to predict future loan statuses. The labels variable (y) was set to loan_status column. The features variable (X) was set to all the remaining columns excluding loan_status. In Model 1, the balance of the labels variable (y) using the value_counts function counted 75,036 (0's) and 2,500 (1's). 0 represents a healthy loan while 1 represents a high-risk loan. In Model 2, the balance of the labels variable (y) was 56,271 (0's) and 56,271 (1's).
 
 The first stage of the machine learning process was to split the data into training and testing datasets by using train_test_split function of the train_test_learn module. The second stage was to fit a logistic regression model by using the training data (X_train and y_train). The third and final stage of the machine learning process was to save the predictions on the testing data labels by using the testing feature data (X_test) and the fitted model.
 
